@@ -18,5 +18,5 @@
       url('./Inter-Variable.woff2') format('woff2 supports variations'),
       /* для работы в старых браузерах Chrome 62-, Firefox 59- и Opera 52- */
       url('./Inter-Variable.woff2') format('woff2-variations');
-    font-weight: 400 800;
+    font-weight: 400 785;
 }
