@@ -1,0 +1,28 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --font-family: "PressStart2P", sans-serif;
+    --second-family: "Inter-Variable", sans-serif;
+    --font-weight-card-title: 700;
+    --font-weight-card-text: 400;
+
+    --white: #fff;
+    --black: #000;
+    --green: #00cc14;
+    --red: #f00;
+
+    --bg-color: var(--white);
+    --accent-color: var(--black);
+    --bg-image:
+        repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+        linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+    --header-title-f-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+    --header-subtitle-f-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+    --text-shadow-color: var(--white);
+    --difference-color: var(--white);
+
+    --heart-contour-color: var(--black);
+
+    --heart-main-color: var(--red);
+}
